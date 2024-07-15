@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
-    "vercel-build": "npm i prisma migrate deploy"
+    "vercel-build": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
