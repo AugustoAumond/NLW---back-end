@@ -1,13 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "src/server.ts",
-  "engines": {
-    "node": "14.x"
-  },
+  "main": "index.js",
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
-    "vercel-build": "npm prisma migrate deploy"
+    "vercel-build": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
