@@ -6,7 +6,7 @@
             "use": "vercel-sapper"
         },
         {
-            "src": "index.js",
+            "src": "src/server.ts",
             "use": "@vercel/node"
         }
     ],
