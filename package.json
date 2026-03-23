@@ -27,6 +27,7 @@
     "fastify-type-provider-zod": "2.0.0",
     "nodemailer": "6.9.14",
     "postgres": "^3.4.4",
+    "tsc": "^2.0.4",
     "zod": "3.23.8"
   }
 }
