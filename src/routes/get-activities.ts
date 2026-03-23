@@ -40,7 +40,7 @@ export async function getActivities(app: FastifyInstance) {
 
         return {
           date: date.toDate(),
-          activities: trip.activities.filter(activity => {
+          activities: trip.activities.filter((activity: any) => {
             return dayjs(activity.occurs_at).isSame(date, 'day')
           })
         }
