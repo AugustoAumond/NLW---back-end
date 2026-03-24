@@ -17,7 +17,6 @@ import { updateTrip } from './routes/update-trip'
 import { getTripDetails } from './routes/get-trip-details'
 import { getParticipant } from './routes/get-participant'
 import { errorHandler } from './error-handler'
-import { env } from './env'
 
 const app = fastify()
 
