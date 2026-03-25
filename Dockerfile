@@ -1,9 +1,6 @@
-FROM node:20-slim
+FROM node:20-bullseye
 
 WORKDIR /app
-
-# 👇 instala openssl (CRÍTICO pro Prisma)
-RUN apt-get update -y && apt-get install -y openssl
 
 COPY package*.json ./
 
