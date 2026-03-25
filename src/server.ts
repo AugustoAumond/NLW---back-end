@@ -42,6 +42,10 @@ app.register(updateTrip)
 app.register(getTripDetails)
 app.register(getParticipant)
 
+app.get('/test', async () => {
+  return { ok: true }
+})
+
 app.listen({ port: Number(process.env.PORT) || 3000, host: '0.0.0.0' }).then(() => {
   console.log('Server running!')
 })
