@@ -2,6 +2,9 @@ FROM node:20-bullseye
 
 WORKDIR /app
 
+# 🔥 instala openssl correto
+RUN apt-get update -y && apt-get install -y openssl
+
 COPY package*.json ./
 
 RUN npm install
